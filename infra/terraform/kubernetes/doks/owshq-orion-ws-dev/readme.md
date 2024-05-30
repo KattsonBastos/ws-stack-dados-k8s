@@ -3,6 +3,8 @@
 ### digital ocean
 ```sh
 doctl auth login
+
+doctl kubernetes options sizes # list k7s options
 ```
 
 ### provision
