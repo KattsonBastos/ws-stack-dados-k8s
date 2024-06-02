@@ -1,5 +1,2 @@
 tasks:
-    - command: bash installs/run_all.sh
-    - command: echo alias k='kubectl'>>~/.bashrc
-    - command: echo alias kgp='kubectl get pods'>>~/.bashrc
-    - command: echo alias kd='kubectl describe'>>~/.bashrc
+    - command: bash run-gitpod.config.sh
